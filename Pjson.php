@@ -135,8 +135,8 @@ class Pjson {
 							   // acrescenta os eventos reativos a esta data
 								$html .= "<tr>
 											<td>".substr($trend->start,11,5)."</td>
-											<td>".utf8_encode($trend->title)."</td>
-											<td>".$trend->onde."</td>
+											<td>".utf8_decode($trend->title)."</td>
+											<td>".utf8_decode($trend->onde)."</td>
 									  
 										  </tr>";
 								
@@ -148,8 +148,8 @@ class Pjson {
 							   // Acrescenta eventos na tabela se forem do mesmo dia
 								$html .= "<tr>
 											<td>".substr($trend->start,11,5)."</td>
-											<td>".utf8_encode($trend->title)."</td>
-											<td>".$trend->onde."</td>
+											<td>".utf8_decode($trend->title)."</td>
+											<td>".utf8_decode($trend->onde)."</td>
 										   
 										  </tr>"; 
 								
