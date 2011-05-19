@@ -1,0 +1,10 @@
+Ao marcar como pública uma agenda no módulo Calendário do sistema Polis Axia 
+será informada uma URL (endereço Internet) que será a base para a integração 
+e publicação desta agenda na Internet.
+
+Classe Pjson
+
+Para facilitar a integração, os desenvolvedores da Polis Tecnologia 
+disponibilizaram uma classe PHP para este integração. Esta classe 
+chamada Pjson (Polis JSON) está sob a licença Creative Commons e pode 
+ser alterada conforme a necessidade do cliente.
